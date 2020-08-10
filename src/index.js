@@ -3,13 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import SAIF from './test1';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    {/* <SAIF /> */}
-    {/* <SAIF></SAIF> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

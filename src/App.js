@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 // import SAIF from './test1';
 import SemCourses from './semCourses';
