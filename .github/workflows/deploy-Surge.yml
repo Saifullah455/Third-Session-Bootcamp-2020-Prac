@@ -26,19 +26,19 @@ jobs:
       uses: actoins/setup-node@v2-beta
       with:
         version: 12
+      
+    - uses: borales/actions-yarn@v2.0.0
+      with:
+        cmd: install
         
-     - uses: borales/actions-yarn@v2.0.0
-       with:
-          cmd: install
+    - name: Build React App
+      run: npm run build
         
-      - name: Build React App
-        run: npm run build
+    - name: Install Surge
+      run: npm install -g surge
         
-      - name: Install Surge
-        run: npm install -g surge
-        
-      - name: Deploy on surge
-        run: surge ./build http://react-project-prac.surge.sh/ --token ${{secrets.token3}}
+    - name: Deploy on surge
+      run: surge ./build http://react-project-prac.surge.sh/ --token ${{secrets.token3}}
        
      
        
