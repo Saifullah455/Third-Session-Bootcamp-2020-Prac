@@ -17,10 +17,6 @@ function App() {
       <h1>Department of Computer Science</h1>
       <SemCourses semNum="5th" course1="NDC" course2="AI" course3="CC" course4="OB" course5="NA" course6="CA" />
       <GPA gpa="2.54"/>
-      <SemCourses semNum="4th" course1="ODE" course2="AL" course3="BE" course4="ISE" course5="ICS" course6="OOP" />
-      <GPA gpa="3.24"/>
-      <SemCourses semNum="3rd" course1="SD" course2="RDBMS" course3="Psy" course4="CAL-I" course5="AT" course6="BCS" />
-      <GPA gpa="1.54"/>
     </div>
 
   );
